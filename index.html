@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Build a Portfolio Site</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build a Portfolio Site</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/tablet.css" rel="stylesheet" media="screen and (min-width: 500px)">
+  <link href="css/desktop.css" rel="stylesheet" media="screen and (min-width: 992px)">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
 
-    <link href="css/main.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <img src="img/logo.svg" alt="Udacity logo">
-      <h1>Jane Doette</h1>
-      <p>Front-End Ninja</p>
+<body>
+  <div class="grid">
+    <header id="masthead" class="row">
+      <div class="col-2">
+        <img src="img/logo.svg" alt="Udacity logo">
+      </div>
+      <div class="col-10">
+        <h1>Jane Doette</h1>
+        <p>Front-End Ninja</p>
+      </div>
     </header>
-
     <section id="hero">
       <img src="img/hero.png" alt="Hero image">
     </section>
-
     <section id="feature">
       <header>
         <h2>Featured Work</h2>
       </header>
-
-      <article>
-        <img src="img/appify.png" alt="">
-        <h3>Appify</h3>
-        <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
-      </article>
-
-      <article>
-        <img src="img/sunflower.png" alt="">
-        <h3>Sunflower</h3>
-        <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
-      </article>
-
-      <article>
-        <img src="img/bokeh.png" alt="">
-        <h3>Bokeh</h3>
-        <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
-      </article>
+      <div class="row">
+        <article class="col-4">
+          <img src="img/appify.png" alt="Appify">
+          <h3>Appify</h3>
+          <p><a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a></p>
+        </article>
+        <article class="col-4">
+          <img src="img/sunflower.png" alt="Sunflower">
+          <h3>Sunflower</h3>
+          <p><a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a></p>
+        </article>
+        <article class="col-4">
+          <img src="img/bokeh.png" alt="Bokeh">
+          <h3>Bokeh</h3>
+          <p><a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a></p>
+        </article>
+      </div>
     </section>
+  </div>
+  <script src="js/main.js"></script>
+</body>
 
-    <script src="js/main.js"></script>
-  </body>
 </html>
