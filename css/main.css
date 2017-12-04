@@ -78,12 +78,12 @@ a {
     width: 83.33%;
 }
 
-.logo {
+.masthead-logo {
     height: 60px;
 }
 
-.name,
-.title {
+.masthead-name,
+.masthead-title {
     margin: 0;
     text-align: right;
     text-transform: uppercase;
@@ -176,16 +176,16 @@ a {
         border-width: 4px;
     }
 
-    .hero {
-        margin-bottom: 3rem;
-    }
-
-    .logo {
+    .masthead-logo {
         height: 80px;
     }
 
-    .title {
+    .masthead-title {
         font-size: 24px;
+    }
+
+    .hero {
+        margin-bottom: 3rem;
     }
 
     .feature-link {
