@@ -94,6 +94,10 @@ a {
     margin-bottom: 2rem;
 }
 
+#hero img {
+    width: 100%;
+}
+
 #feature article {
     text-align: center;
 }
