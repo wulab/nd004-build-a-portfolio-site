@@ -65,6 +65,12 @@ a {
     width: 100%;
 }
 
+.icon {
+    display: inline-block;
+    height: 1rem;
+    width: auto;
+}
+
 #masthead {
     border-bottom: 2px solid #7d97ad;
     margin-bottom: 1rem;
