@@ -16,8 +16,7 @@ h2,
 h3 {
     font-size: 36px;
     font-weight: normal;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 h2 {
@@ -113,8 +112,7 @@ a {
 
 @media (min-width: 576px) {
     body {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 2rem 0;
     }
     h1 {
         font-size: 48px;
